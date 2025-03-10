@@ -1,0 +1,117 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMYCQaok4DzyYs50oY8rB9K",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/mahi7259/PHYTON/blob/main/Minutes%20converted%20into%20Hours\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 3,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 315
+        },
+        "id": "AV5v3nbpk1IE",
+        "outputId": "62c0b20d-e5e2-4200-f7a1-5733c289a644"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "<>:5: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?\n",
+            "<>:5: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?\n"
+          ]
+        },
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "entre the length of rectangler3.33\n",
+            "enter the breadth of rectangle4.5\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "<ipython-input-3-289226099fc3>:5: SyntaxWarning: 'int' object is not callable; perhaps you missed a comma?\n",
+            "  perimeter=2(length+breadth)\n"
+          ]
+        },
+        {
+          "output_type": "error",
+          "ename": "TypeError",
+          "evalue": "'int' object is not callable",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mTypeError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-3-289226099fc3>\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      3\u001b[0m \u001b[0mbreadth\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0mfloat\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"enter the breadth of rectangle\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      4\u001b[0m \u001b[0marea\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mlength\u001b[0m\u001b[0;34m*\u001b[0m\u001b[0mbreadth\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 5\u001b[0;31m \u001b[0mperimeter\u001b[0m\u001b[0;34m=\u001b[0m\u001b[0;36m2\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mlength\u001b[0m\u001b[0;34m+\u001b[0m\u001b[0mbreadth\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      6\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"area\"\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0marea\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      7\u001b[0m \u001b[0mprint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"perimeter\"\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0mperimeter\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mTypeError\u001b[0m: 'int' object is not callable"
+          ]
+        }
+      ],
+      "source": [
+        "#area and perimeter of rectangle\n",
+        "length=float(input(\"entre the length of rectangler\"))\n",
+        "breadth=float(input(\"enter the breadth of rectangle\"))\n",
+        "area=(length*breadth)\n",
+        "perimeter=2(length+breadth)\n",
+        "print(\"area\",area)\n",
+        "print(\"perimeter\",perimeter)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "min=int(input(\"enter time in min\"))\n",
+        "hour=min//60\n",
+        "remainingminutes=min%60\n",
+        "print(hour)\n",
+        "print(remainingminutes)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "NmcD5lhBnAaL",
+        "outputId": "17b5488b-0ecd-43e1-8e32-75ff37e799ac"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter time in min177\n",
+            "2\n",
+            "57\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
