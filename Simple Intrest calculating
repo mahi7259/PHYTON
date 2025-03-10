@@ -1,0 +1,61 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNT3Lf4j7/nJx1+BLyQUEbz",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/mahi7259/PHYTON/blob/main/Simple%20Intrest%20calculating\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 3,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jiNThyePiZiV",
+        "outputId": "466dcce7-07e0-456b-93ff-813affced00b"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter principle amount50000\n",
+            "enter time in years5\n",
+            "enter rate per annum0.5\n",
+            "Simple Intrest 1250.0\n"
+          ]
+        }
+      ],
+      "source": [
+        "#simple intrest\n",
+        "PA=int(input(\"enter principle amount\"))\n",
+        "Time=int(input(\"enter time in years\"))\n",
+        "rate=float(input(\"enter rate per annum\"))\n",
+        "SI=PA*Time*rate/100\n",
+        "print(\"Simple Intrest\",SI)"
+      ]
+    }
+  ]
+}
