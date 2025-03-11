@@ -1,0 +1,7 @@
+a=int(input("enter a"))
+b=int(input("enter b"))
+print(a+b,a*b,a/b,a-b)
+     
+enter a5
+enter b2
+7 10 2.5 3
