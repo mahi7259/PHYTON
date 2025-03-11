@@ -1,0 +1,8 @@
+weight=int(input("enter weight"))
+hight=float(input("enter hight"))
+bmi=weight/(hight*hight)
+print("bmi",bmi)
+     
+enter weight60
+enter hight1.7
+bmi 20.761245674740486
