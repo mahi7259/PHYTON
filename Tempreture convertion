@@ -1,0 +1,6 @@
+celsius=float(input("enter temp in celsius"))
+faren=(ccelsius*9/5)+32
+print("tempreture in faren",faren)
+     
+enter temp in celsius23
+tempreture in faren 73.4
